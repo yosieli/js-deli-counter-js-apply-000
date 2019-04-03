@@ -19,7 +19,7 @@ function nowServing(deliLinee){
  }
  function currentLine(katzDeliLine){
    if(katzDeliLine.length !==0){
-     var currentLine=katzDeliLine.sort();
+     katzDeliLine.sort();
      return "The line is currently:"+""+ " 1."+ " " +katzDeliLine[1]+","+""+ " 2."+ " "
      +katzDeliLine[2]+","+""+ " 3."+" "+katzDeliLine[0];
    }
