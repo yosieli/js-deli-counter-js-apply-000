@@ -6,7 +6,7 @@ return "Welcome, " + name +". You are number "+ katzDeliLine.length +" in line."
 }
 
 function nowServing(deliLinee){
-  var position=deliLinee.length + 1
+  //var position=deliLinee.length + 1
   if(deliLinee.length===0){
   return "There is nobody waiting to be served!"
   }
